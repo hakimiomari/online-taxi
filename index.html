@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Afghan Taxi Company</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-5 fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand fs-1" href="#"
+          ><span class="text-warning fw-bold">Afghan</span>Taxi</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 d-flex me-4 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link fs-4 active" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link fs-4 active"
+                aria-current="page"
+                href="#services"
+                >Services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link fs-4 active"
+                aria-current="page"
+                href="#professionality"
+                >Professionality</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-4 active" aria-current="page" href="#about"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-4 active" aria-current="page" href="#"
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div id="home">
+      <!-- home section -->
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./images/pexels-jake-heinemann-2399254.jpg"
+              class="d-block w-100 img-fluid"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Beautiful Cars</h5>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex,
+                nihil?
+              </p>
+              <a href="" class="btn btn-warning text-white lg">Read more</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/pexels-ibrahim-boran-296492.jpg"
+              class="d-block w-100 img-fluid"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Easy to Access</h5>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex,
+                nihil?
+              </p>
+              <a href="" class="btn btn-warning text-white lg">Read more</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/pexels-dids-1769739.jpg"
+              class="d-block w-100 img-fluid"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Good Traffic Control</h5>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex,
+                nihil?
+              </p>
+              <a href="" class="btn btn-warning text-white lg">Read more</a>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- services -->
+    <section class="container" id="services">
+      <h2 class="text-uppercase text-center mt-4">Our services</h2>
+      <div class="cards">
+        <div class="card">
+          <img
+            src="./images/gettyimages-115004713-612x612.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Public Hire Taxis</h5>
+            <p class="card-text card-desc">
+              A taxi, also known as a taxicab or simply a cab, is a type of
+              vehicle for hire with a driver, used by a single passenger or
+              small group of passengers ...
+            </p>
+            <a href="#" class="btn btn-primary btn-warning text-white"
+              >Read more...</a
+            >
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="./images/gettyimages-1217653245-612x612.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Private Hire Vehicles</h5>
+            <p class="card-text card-desc">
+              A taxi, also known as a taxicab or simply a cab, is a type of
+              vehicle for hire with a driver, used by a single passenger or
+              small group of passengers ...
+            </p>
+            <a href="#" class="btn btn-primary btn-warning text-white"
+              >Read more...</a
+            >
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="./images/gettyimages-1362616321-612x612.jpg"
+            class="card-img-top"
+            alt="uber Taxi"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Uber Drivers</h5>
+            <p class="card-text card-desc">
+              A taxi, also known as a taxicab or simply a cab, is a type of
+              vehicle for hire with a driver, used by a single passenger or
+              small group of passengers ...
+            </p>
+            <a href="#" class="btn btn-primary btn-warning text-white"
+              >Read more...</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- video section -->
+    <section class="videoShow" id="professionality">
+      <div class="header">
+        <h1 class="text-white text-center text-uppercase">
+          professional driver
+        </h1>
+      </div>
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner carouselInner">
+          <div class="carousel-item active">
+            <!-- <video
+              src="./images/NEW/pexels-tim-samuel-5834623.mp4"
+              autoplay
+              muted
+              loop
+            ></video> -->
+            <video
+              src="https://player.vimeo.com/external/378503422.sd.mp4?s=b111567af61c6c39519eeaa51a86d0e94ddbd645&profile_id=164&oauth2_token_id=57447761"
+              autoplay
+              muted
+              loop
+            ></video>
+          </div>
+          <div class="carousel-item">
+            <video
+              src="https://player.vimeo.com/external/476984861.sd.mp4?s=695c198cc1fe970cdce480522072b755a5d261c5&profile_id=164&oauth2_token_id=57447761"
+              autoplay
+              muted
+              loop
+            ></video>
+          </div>
+          <div class="carousel-item">
+            <video
+              src="https://www.pexels.com/video/pedestrians-crossing-while-the-yellow-cab-is-in-full-stop-5834617/"
+              autoplay
+              muted
+              loop
+            ></video>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- about -->
+    <section id="about" class="container">
+      <div class="text-center mt-5 mb-5">
+        <h2 class="text-uppercase">About us</h2>
+        <p class="description">
+          Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Blanditiis molestiae asperiores possimus saepe omnis
+          a reiciendis quos voluptas necessitatibus laboriosam?.
+        </p>
+      </div>
+      <div class="cards mb-4">
+        <div class="card">
+          <div class="images">
+            <img src="./images/drivers.jpg" class="card-img-top" alt="..." />
+          </div>
+          <div class="card-body">
+            <h5 class="text-uppercase text-center">our drivers</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary btn-warning text-white"
+              >Learn more...</a
+            >
+          </div>
+        </div>
+        <div class="card">
+          <div class="images">
+            <img src="./images/services.jpg" class="card-img-top" alt="..." />
+          </div>
+          <div class="card-body">
+            <h5 class="text-uppercase text-center">our services</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary btn-warning text-white"
+              >Learn more...</a
+            >
+          </div>
+        </div>
+        <div class="card">
+          <div class="images">
+            <img src="./images/kamran.jpg" class="card-img-top" alt="..." />
+          </div>
+          <div class="card-body">
+            <h5 class="text-uppercase text-center">our manager</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary btn-warning text-white"
+              >Learn more...</a
+            >
+          </div>
+        </div>
+        <div class="card">
+          <div class="images">
+            <img src="./images/company.jpg" class="card-img-top" alt="..." />
+          </div>
+          <div class="card-body">
+            <h5 class="text-uppercase text-center">about Company</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary btn-warning text-white"
+              >Learn more...</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact -->
+    <div class="contact">
+      <div class="container">
+        <div class="contact-header pt-4 pb-2">
+          <h2 class="text-center">Contact Us</h2>
+          <p class="description">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita
+            aliquid minus explicabo in voluptatem et. Inventore neque reiciendis
+            laudantium illo.
+          </p>
+        </div>
+        <form action="" class="form">
+          <div class="form-group mb-3">
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              placeholder="@name"
+            />
+          </div>
+          <div class="form-group mb-3">
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="name@example.com"
+            />
+          </div>
+          <div class="form-group mb-3">
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+              placeholder="Please Write Your Message Here!"
+            ></textarea>
+          </div>
+          <button class="btn btn-lg btn-warning w-100 fw-bolder">
+            Send Now
+          </button>
+        </form>
+      </div>
+    </div>
+    <div class="footer bg-dark py-4">
+      <h5 class="text-center text-white">
+        All Right Reserved By
+        <span class="text-warning fw-bold">@Afghan</span>Taxi
+      </h5>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
